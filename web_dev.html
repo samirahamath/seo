@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Web Development - iLanding Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img 
+   src="assets/img/logo.PNG" 
+   alt="Logo" 
+   class="logo-img img-fluid bi-image-fill" 
+   style="width: 60px;height:62px; border-radius: 50%;  ;"
+>
+        <!-- <img src="assets/img/SECONDARY_ICON.PNG" alt="Secondary Logo" width="50"> -->
+        <!-- <h1 class="sitename">THE EXPERT HUB</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+            <li class="dropdown">
+            <a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="branding.html">Branding</a></li>
+              <li><a href="web_dev.html">Web Development</a></li>
+              <li><a href="mobile-app.html">Mobile App Development</a></li>
+              <li><a href="google-ads-marketing.html">Google Ads Marketing</a></li>
+              <li><a href="content-seo.html">Content Based SEO</a></li>
+              <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+              <li><a href="corporate-video-making.html">Corporate Video Making</a></li>
+              <div class="dropdown">
+                <button class="btn ps-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Editorial Services
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Graphic-Support-Service.html"> 
+Graphic Support Service</a></li>
+
+                  <li><a class="dropdown-item" href="Text.html">Text Book Service</a></li>
+                  <li><a class="dropdown-item" href="Data.html">Data Service </a></li>
+                </ul>
+              </div>
+            </ul>
+            </li>
+            <!-- <li><a href="#features">Features</a></li> -->
+            <li class="dropdown"><a href="#"><span>Careers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="career_home.html">Careers Home</a></li>
+                <li><a href="expore_job.html">Explore Jobs</a></li>
+              </ul>
+            </li>
+        <li><a href="#contact">Contact</a></li>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <a class="btn-getstarted" href="index.html#about">Get Started</a> -->
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Digital Solutions
+              </div>
+
+              <h1 class="mb-4">
+                Build Your Digital<br>
+                <div class="typewriter-wrapper">
+                  <div id="typewriter" class="accent-text cursor"></div>
+                </div>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+                Professional web development services to establish your online presence
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Book a Call</a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid up">
+            </div>
+          </div>
+        </div>
+
+        <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <img src="assets/img/google-ads.png" alt="" width="80%">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <img src="assets/img/Facebook.png" alt="" width="80%">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <img src="assets/img/Linked-in.png" alt="" width="80%">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stat-item">
+              <img src="assets/img/NO.-1-new.png" alt="" width="80%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+    
+    <section>
+        <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row align-items-center">
+            
+              <h1 class="text-center my-5 fw-bold">Web Development</h1>
+              <div class="col-lg-6 order-2 order-lg-1 mt-4 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3 class="fw-bold mb-3">Custom Web Solutions:</h3>
+                <p class="fst-italic text-muted mb-4">
+                Tailored to Your Business Needs
+                </p>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="bi bi-check2-all text-success me-2"></i><span>Responsive Design: Websites that look great on all devices</span></li>
+                  <li class="mb-2"><i class="bi bi-check2-all text-success me-2"></i><span>Performance Optimized: Fast loading times for better user experience</span></li>
+                  <li><i class="bi bi-check2-all text-success me-2"></i><span>SEO Friendly: Built with search engine optimization in mind</span></li>
+                </ul>
+              </div>
+          
+              <!-- Image -->
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid rounded-4 shadow-sm">
+              </div>
+            </div>
+          </div>
+          </div>
+          
+    </section>
+
+     <!-- Faq Section -->
+   <section class="faq-9 faq section light-background" id="faq">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5" data-aos="fade-up">
+          <h2 class="faq-title">Have a question? Check out the FAQ</h2>
+          <p class="faq-description">What Makes Us Different?</p>
+          <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
+            <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z" fill="currentColor"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+          <div class="faq-container">
+
+            <div class="faq-item faq-active">
+              <h3>How can digital marketing benefit my business in Chennai?</h3>
+              <div class="faq-content">
+                <p>Digital marketing will help your business create brand awareness, establish a solid online presence, and reach a broad range of target audiences. Digital marketing is the need of the hour today as it
+                   facilitates global reach, is cost-effective, and increases traffic by creating a prominent online presence. With digital marketing, you can target very specific audience segments through personalized 
+                   content that satisfies user intent. You also have access to analysis that gives you data on consumer behaviour,
+                   how they are engaging with your content and their buying journey. This helps refine the strategies for better conversions.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>Quality Assurance?</h3>
+              <div class="faq-content">
+                <p>the commitment to quality assurance is paramount, reinforced by a meticulous checklist that encompasses every facet of an item, including special parameters tailored to clients' proprietary formats and 
+                  specifications. The comprehensive review delves into key aspects, ensuring:<br><br>
+
+                  Proactive identification and rectification of bias<br>
+                  Appropriate distractor design and detailed rationale<br>
+                  Careful examination of subject and scenario accuracy<br>
+                  Grade appropriateness (subject, language, relevance)<br>
+                  Alignment to difficulty levels and Depth of Knowledge (DOK)<br>
+                  Alignment to learning objectives or standards (Common Core, State, Proprietary)</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>Can you help with both organic (SEO) and paid (PPC) digital marketing strategies?</h3>
+              <div class="faq-content">
+                <p>Yes, when clients prefer an integrated marketing plan, which we highly recommend, both organic and paid promotions are included. This holistic approach ensures a complete marketing strategy that takes advantage 
+                  of various channels for measurable benefits. However, if a client prefers to focus solely on paid digital marketing channels for immediate results or SEO strategies if they have a budget constraint, we offer services 
+                  suitable to that. This flexible approach gives you the required flexibility and opportunity for us to adapt our services to best suit your preferences and goals.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>How do you measure and report on the success of digital marketing efforts?</h3>
+              <div class="faq-content">
+                <p>As part of our client-centric approach, we set target metrics and milestones based on your specific goals and objectives. These performance metrics serve as indicators of the status of progress throughout the duration of the project. 
+                  Our team sets up the necessary tools like Google analytics, search console and other preferred tech stack of yours and makes it ready for performance tracking. We create specific dashboards that show the targets we have met, ensuring transparency 
+                  and accountability in our efforts. We provide regular updates to you on the progress made. This proactive communication fosters trust and collaboration, allowing you to stay actively involved in the process and provide suggestions as needed.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>How do you ensure digital marketing compliance with industry standards?</h3>
+              <div class="faq-content">
+                <p>We take all necessary precautionary steps to meet industry standards. With 10+ years of experience in the digital marketing industry, we can guarantee the confidentiality of client information. We provide authentic advertising content free from misleading 
+                  the target audience, ensuring genuine content with no plagiarism involved.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3>How do you incorporate the latest trends and innovations in your strategy?</h3>
+              <div class="faq-content">
+                <p>the digital marketing company in Chennai, we invest time and efforts in upskilling and staying updated with the latest trends and algorithm updates. We consistently improve our services by implementing new technologies and strategies as necessary. For content 
+                  marketing, we always keep in tune with the trending topics and cover them comprehensively. We look out for ongoing social media trends, brainstorm ways to take advantage of them, craft content that suits your business and optimize for engagement. This helps maximize 
+                  virality. For app and website creation, we prioritize using advanced programming languages and testing methods.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /Faq Section -->
+
+    <!-- Call To Action 2 Section -->
+    <section id="call-to-action-2" class="call-to-action-2 section dark-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>"Let’s connect and create something great together.
+                We’re just a message away — reach out today!"</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>"Have questions? We have answers.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+              <p>"Let’s connect and create something great together.
+                We’re just a message away — reach out today!"</p>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>SME VENDOR MANAGEMENT AND DIGITAL MARKETING <br>
+                    BRANCH 1 :- NS BUILDING, 2ND FLOOR NO 20 CHOOLLAIPALLAM, MGR NAGAR CHENNAI - 600078<br><br>
+                    BRANCH 2 :- VILLA G1, OPP YSN BAKERY GODOWN, MINI BYPUSS , NELLORE - 524004
+                    </p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+91 8939 220422
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>HR@THEEXPERTHUB.IN</p>
+                  <p>INFO@THEEXPERTHUB.IN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+              <p>"Let’s connect and create something great together.
+                We’re just a message away — reach out today!"</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">THE EXPERT HUB</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>SME VENDOR MANAGEMENT AND DIGITAL MARKETING <br>
+              BRANCH 1 :- NS BUILDING, 2ND FLOOR NO 20 CHOOLLAIPALLAM, MGR NAGAR CHENNAI - 600078<br><br>
+              BRANCH 2 :- VILLA G1, OPP YSN BAKERY GODOWN, MINI BYPUSS , NELLORE - 524004
+              </p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 8939 220422</span></p>
+            <p><strong>Email:</strong> <span>HR@THEEXPERTHUB.IN</span></p>
+            <p><strong>Email:</strong> <span>INFO@THEEXPERTHUB.IN</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="branding.html">Branding</a></li>
+            <li><a href="web_dev.html">Web Development</a></li>
+            <li><a href="mobile-app.html">Mobile App Development</a></li>
+            <li><a href="google-ads-marketing.html">Google Ads Marketing</a></li>
+            <li><a href="content-seo.html">Content Based SEO</a></li>
+            <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+            <li><a href="corporate-video-making.html">Corporate Video Making</a></li>
+            <li><a href="#">Editorial Services</a></li>
+            <li><a href="#">Graphic Support Service</a></li>
+            <li><a href="#">Text Book Service</a></li>
+            <li><a href="#">Data Service </a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Careers</h4>
+          <ul>
+            <li><a href="#">Careers Home</a></li>
+            <li><a href="#">Explore Jobs</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Extra</h4>
+          <ul>
+            <li><a href="#">Product 1</a></li>
+            <li><a href="#">Product 1</a></li>
+            <li><a href="#">Product 1</a></li>
+            <li><a href="#">Product 1</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">THE EXPERT HUB</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="#">Samir</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/type.js"></script>
+</body>
+</html>
